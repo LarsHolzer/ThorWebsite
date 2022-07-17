@@ -9,11 +9,22 @@
 
 .header { 
     background-color: #1F2937 ;
+    flex-direction: row;
 }
 
-img {
-    height: 150px;
+.thor {
+    display: flex;
+    flex: 1;
+    height: 200px;
     width: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    margin: 30px;
+    margin-right: 100px;
+    background-color: rgb(86, 91, 106);
 }
 .white {
     color: #F9FAF8;
@@ -32,6 +43,7 @@ a {
 .container_header p {
     font-size: 18px;
     color: #E5E7EB;
+    text-align: left;
 }
 .sign_header {
     color: white;
@@ -40,13 +52,16 @@ a {
 .top_bar {
     display: flex;
     justify-content: space-between;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 85px;
+    margin-left: 100px;
 }
 
 .container_header {
     display: flex;
-    margin-top: 120px;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-left:100px
 
 }
 
@@ -60,4 +75,19 @@ a {
 a {
     padding: 5px;
     margin: 10px;
+}
+h1 {
+    display: inline-block;
+}
+.img_text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius:10px;
 }
