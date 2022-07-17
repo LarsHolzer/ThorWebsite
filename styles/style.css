@@ -10,6 +10,7 @@
 .header { 
     background-color: #1F2937 ;
     flex-direction: row;
+    padding-bottom: 50px;
 }
 
 .thor {
@@ -90,4 +91,81 @@ button{
     padding-left: 20px;
     padding-right: 20px;
     border-radius:10px;
+}
+.main_heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.thor_img {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    border: #3882F6;
+    margin-bottom: 150px;
+    
+}
+
+.grey_bg {
+    text-align: left;
+    background-color: #E5E7EB ;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.grey_bg p {
+    text-align: right;
+}
+.img_sub {
+    text-align: center;
+    
+    
+}
+.blue_box {
+    display: flex;
+    background-color: #3882F6;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+
+}
+.blue_button{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+}
+
+.blue2 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.font_size_24 {
+    font-size: 24px;
+    font-weight: 900;
 }
